@@ -5,17 +5,14 @@ const shouldAnalyseBundle = process.env.ANALYSE_BUNDLE
 
 const config: GatsbyConfig = {
   siteMetadata: {
-    // You can overwrite values here that are used for the SEO component
-    // You can also add new values here to query them like usual
-    // See all options: https://github.com/LekoArts/gatsby-themes/blob/main/themes/gatsby-theme-cara/gatsby-config.mjs
-    siteTitle: `Cara`,
-    siteTitleAlt: `Cara - Gatsby Starter Portfolio`,
-    siteHeadline: `Cara - Gatsby Theme from @lekoarts`,
-    siteUrl: `https://cara.lekoarts.de`,
-    siteDescription: `Playful and Colorful One-Page portfolio featuring Parallax effects and animations`,
+    siteTitle: `Ken B.`,
+    siteTitleAlt: `Ken Badertscher`,
+    siteHeadline: `Ken Badertscher - Web Development Portfolio`,
+    siteUrl: `https://www.kenbadertscher.com`,
+    siteDescription: `I'm a web developer. I build eye catching websites that are both fun and functional.`,
     siteImage: `/banner.jpg`,
     siteLanguage: `en`,
-    author: `@lekoarts_de`,
+    author: `KenBadertscher`,
   },
   trailingSlash: `always`,
   plugins: [
@@ -27,9 +24,9 @@ const config: GatsbyConfig = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Cara - @lekoarts/gatsby-theme-cara`,
-        short_name: `Cara`,
-        description: `Playful and Colorful One-Page portfolio featuring Parallax effects and animations`,
+        name: `Ken Badertscher - Web Development Portfolio`,
+        short_name: `Ken B.`,
+        description: `I'm a web developer. I build eye catching websites that are both fun and functional.`,
         start_url: `/`,
         background_color: `#141821`,
         // This will impact how browsers show your PWA/website
